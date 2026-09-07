@@ -86,7 +86,7 @@
                             <h3 class="mb-0">{{ education.univ }}</h3>
                             <div class="subheading mb-3">{{ education.certificate }}</div>
                             <div>{{ education.major }}</div>
-                            <p>{{ education.score }}</p>
+                            <p>score: {{ education.score }}</p>
                         </div>
                          <div class="flex-shrink-0"><span class="text-primary">{{ education.date }}</span></div>
                     	</div>
@@ -150,7 +150,7 @@
             <!-- Awards-->
             <section class="resume-section" id="awards">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <h2 class="mb-5">Certifications</h2>
                     <ul class="fa-ul mb-0">
                         {% for certificate in certificates %}
                             <li>
