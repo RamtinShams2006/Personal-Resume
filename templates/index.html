@@ -67,11 +67,9 @@
                             	<h3 class="mb-0">{{ exp.title }}</h3>
                                 <div class="subheading mb-3">{{ exp.company }}</div>
                                 <p>{{ exp.description }}</p>
+                                <div class="flex-shrink-0"><span class="text-primary">{{ exp.date }}</span></div>
                             {% endfor %}
                         </div>
-                        {% for exp in exps %}
-                        	<div class="flex-shrink-0"><span class="text-primary">{{ exp.date }}</span></div>
-                        {% endfor %}
                     </div>
                 </div>
             </section>
